@@ -1,0 +1,6 @@
+# Desktop testing + build tools (run inside WSL2 Ubuntu / Linux for the APK build)
+kivy==2.3.0
+buildozer==1.5.0
+cython==0.29.37
+virtualenv
+setuptools

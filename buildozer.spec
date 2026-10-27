@@ -3,7 +3,10 @@ title = READS Home Reading
 package.name = readshome
 package.domain = org.deped.reads
 source.dir = .
-source.include_exts = py,json,png,jpg,kv
+source.include_exts = py,json,png,jpg,kv,ico
+
+icon.filename = %(source.dir)s/erlhan.png
+presplash.filename = %(source.dir)s/erlhan.png
 version = 1.0.0
 requirements = python3,kivy==2.3.0,pyjnius,android
 orientation = portrait
